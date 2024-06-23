@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-color: #2164f5e8;
+    background-image: linear-gradient(to bottom, #2164f5e8, #134fd1e8);
     margin-top: 0px;
     height: 100px;
     font-size: 1.3em;
