@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -20,4 +26,94 @@ h1{
 h2{
     text-align: center;
     font-size: 1.6em;
+}
+
+
+
+
+/* Estilos da janela */
+.window {
+    width: 96%;
+    height: auto;
+    background-color: #181818b6;
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+/* Barra de título */
+.title-bar {
+    height: 40px;
+    background-color: #383838c4;
+    border-bottom: 1px solid #bbb;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    position: relative;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.buttons div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+
+/* Conteúdo da janela */
+.content {
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-y: auto;
+    height: calc(100% - 40px); /* altura total menos a altura da barra de título */
+    border-radius: 0px;
+    height: auto;
+    border-bottom: 1px solid #bbb;
+}
+
+.result{
+    background-color: #181818b6;
+    width: 96%;
+    height: auto;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 8px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+code{
+    margin: 0px;
+
+}
+
+div > h1{
+    text-align: left;
+    margin: 3px;
 }
