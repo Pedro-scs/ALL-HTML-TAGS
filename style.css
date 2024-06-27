@@ -35,7 +35,7 @@ h2{
 .window {
     width: 96%;
     height: auto;
-    background-color: #181818b6;
+    background-color: #131313e5;
     border-radius: 8px 8px 0px 0px;
     overflow: hidden;
     position: relative;
@@ -48,7 +48,7 @@ h2{
 /* Barra de título */
 .title-bar {
     height: 40px;
-    background-color: #383838c4;
+    background-color: #111111d8;
     border-bottom: 1px solid #bbb;
     display: flex;
     align-items: center;
@@ -61,6 +61,7 @@ h2{
     flex: 1;
     text-align: center;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .buttons {
@@ -75,15 +76,15 @@ h2{
 }
 
 .close {
-    background-color: #ff5f56;
+    background-color: #f13930;
 }
 
 .minimize {
-    background-color: #ffbd2e;
+    background-color: #ffb411;
 }
 
 .maximize {
-    background-color: #27c93f;
+    background-color: #18db35;
 }
 
 
@@ -100,7 +101,7 @@ h2{
 }
 
 .result{
-    background-color: #181818b6;
+    background-color: #131313e5;
     width: 96%;
     height: auto;
     margin: 10px;
@@ -108,11 +109,12 @@ h2{
     margin-left: 8px;
     padding: 8px;
     border-radius: 0px 0px 8px 8px;
+    color: #ffffff;
 }
 
 code{
     margin: 0px;
-
+    color: #ffffff;
 }
 
 div > h1{
@@ -130,7 +132,7 @@ div > h1{
 }
 
 h3{
-    background-image: linear-gradient(to right, #134fd1e8, aliceblue);
+    background-image: linear-gradient(to right, #ebbb16, #ffc40027);
     padding: 3px;
     border-radius: 3px;
 }
@@ -142,7 +144,7 @@ h3{
 }
 
 abbr > button{
-    background-color: #4e8cddd3;
+    background-color: #c23a48;
     border: 0px;
     padding: 6px;
     border-radius: 5px;
@@ -153,6 +155,26 @@ button > a{
     color: #000000;
 }
 
+/*
+3881e0d8
+4e8cddd3
+ebbb16
+
+*/
+
 abbr > button:hover{
-    background-color: #3680e0d3;
+    background-color: #d92d3f;
+}
+
+
+span{
+    color: #d92d3f;
+}
+
+.links{
+    color: #ec9320;
+}
+
+.text{
+    color: #26e9cb;
 }
